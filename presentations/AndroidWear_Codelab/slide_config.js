@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Codelab - Android Wear',
-    subtitle: 'Rodando sua primeira app Wear',
+    subtitle: 'Introdução ao desenvolvimento',
     //eventTitle: 'Google I/O 2013',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
