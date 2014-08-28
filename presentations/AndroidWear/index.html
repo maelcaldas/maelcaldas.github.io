@@ -53,363 +53,210 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide>
     <hgroup>
-      <h2><img src='images/googleAppsScript-icon.png'/>&nbsp;Google Apps Script</h2>
-    </hgroup>
-    <article class="flexbox vcenter">
-      <img src="images/googleAppsScript.png" alt="Google Apps Script" title="Google Apps Script">
-      <footer class="source">source: developers.google.com</footer>
-    </article>
-  </slide>
-
-
-  <slide>
-    <hgroup>
-      <h2><img src='images/googleAppsScript-icon.png'/>&nbsp;Google Apps Script</h2>
+      <h2>Agenda</h2>
     </hgroup>
     <article>
-      <iframe data-src="http://www.youtube.com/embed/JJgmU_JUsug?rel=0"></iframe>
-    </article>
-  </slide>
-
-
-  <slide>
-    <hgroup>
-      <h2><img src='images/cuidado.png'  style='margin-top: -15px'/>&nbsp;Cuidado!</h2>
-    </hgroup>
-    <article>
-      <p>Você pode acabar tendo problemas se seu projeto:</p>
       <ul>
-        <li>Manipular um volume MUITO grande de informações</li>
-        <li>Exigir processamento muito pesado/longo</li>
-        <li>Exigir processamento transacional</li>
-        <li>Tiver complexidade muito alta</li>
+        <li>Wearable computing</li>
+        <li>Construindo uma aplicação com Google</li>
       </ul>
     </article>
   </slide>
 
   <slide>
     <article class="flexbox vcenter">
-      <h1>Como tirar proveito da facilidade e simplicidade do Apps Script e, ainda assim, lidar com estes problemas?</h1>
+      <h2>Wearable computing</h2>
     </article>
   </slide>
 
   <slide>
-    <hgroup>
-      <h2>Um alternativa: <img src='images/appengine-icon-54x48.png'/> Google App Engine</h2>
-    </hgroup>
-    <article>
+    <article class="flexbox vcenter">
       <ul>
-        <li>Setup super simples</li>
-        <li>Linguagens Java, Python, PHP e Go (Dart??)</li>
-        <li>Serviços poderosos (Users, Search, Task Queue, Memcache etc)</li>
-        <li>Múltiplas opções de storage (Cloud SQL, NoSQL Datastore, Cloud Storage)</li>
-        <li>Possibilita uso em conjunto com Compute Engine para rodar sua VM preferida</li>
-        <li>Escalável - até 7 bilhões de requests/dia</li>
+        <li>Micro interações</li>
+        <li>Informação num piscar de olhos</li>
       </ul>
     </article>
   </slide>
 
   <slide>
+    <article class="flexbox vcenter">
+      <img src="images/wear-timeline-interruptions.jpg" height="400px">
+    </article>
+  </slide>
+
+  <slide>
+    <article class="flexbox vcenter">
+      <h2>Construindo o <img src="images/logo_full.png" height="100px" style="margin-bottom: -10px;"> com Google</h2>
+    </article>
+  </slide>
+
+  <slide>
     <hgroup>
-      <h2><img src='images/endpoints-icon.png'/> &nbsp;Google Cloud Endpoints</h2>
+      <img src="images/logo_full.png" height="70px">
     </hgroup>
     <article class="flexbox vcenter">
-      <img src="images/endpoints.png" alt="Endpoints" title="Endpoints">
-      <footer class="source">source: developers.google.com</footer>
+      <img src="images/bkper_web.jpg" height="400px">
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2><img src='images/endpoints-icon.png'/> &nbsp;Google Cloud Endpoints - Vantagens</h2>
+      <h2>Partidas dobradas</h2>
+    </hgroup>  
+    <article class="flexbox vcenter">
+      <img src="images/bkper_advanced_form.jpg">
+    </article>
+  </slide>
+
+  <slide>
+    <article class="flexbox vcenter">
+      <p>"Carteira > Alimentação - hoje - padaria 12,80"</p>
+      <br>
+      <br>
+      <img src="images/mobile_wrong.webp" height="400">
+    </article>
+  </slide>
+
+  <slide>
+    <article class="flexbox vcenter">
+      <p>"Carteira > Alimentação - hoje - padaria 12,80"</p>
+      <br>
+      <br>
+      <img src="images/wear_typing.jpeg">
+    </article>
+  </slide>
+  
+  <slide>
+    <article class="flexbox vcenter">
+      <img src="images/bkper_advanced_form_wrong.jpg">
+      <br>
+      <br>
+      <img src="images/bkper_record_field.jpg">
+    </article>
+  </slide>
+
+  <!--
+  <slide>
+    <article class="flexbox vcenter">
+      <ul>
+        <li>Esta é a mudança mais importante!</li>
+        <li>Viabiliza várias integrações</li>
+        <li>Muda a forma de pensar a solução</li>
+      </ul>
+    </article>
+  </slide>
+  -->
+
+  <slide>
+    <hgroup>
+      <img src='images/google_cp_logo.jpeg'  style='margin-top: -15px'/>
     </hgroup>
     <article>
       <ul>
-        <li>Mesma infraestrutura que o Google utiliza em suas API's</li>
-        <li>Autenticação via OAuth2</li>
-        <li>Versionamento da API</li>
-        <li>Geração de código para clientes</li>
-        <li>REST Console</li>
+        <li>App Engine (https://developers.google.com/appengine/)
+         <ul>
+          <li>App Engine Search</li>
+          <li>App Engine Tasks</li>
+          <li>App Engine Channel</li>
+        </ul>
+        </li>
+        <li>Google Prediction (https://developers.google.com/prediction/)</li>
       </ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Porque não um cliente Apps Script!?</h2>
+      <h2>Web + simples</h2>
     </hgroup>
     <article class="flexbox vcenter">
-      <img src="images/endpoints_GAS.png" alt="Endpoints" title="Endpoints">
+      <img src="images/bkper_web_simple.jpg" alt="bkper" title="bkper">
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Porém...</h2>
-      <h3>Como utilizar seus serviços nos scripts, tendo que lidar com:</h3>
-    </hgroup>
-    <article>
-      <ul>
-        <li>Fluxo de autenticação OAuth2</li>
-        <li>Montagens das chamadas REST</li>
-        <li>Parsers</li>
-        <li>Cache</li>
-        <li>Cursores</li>
-      </ul>
-      <p><img src='images/ideia.jpg'/>Idéia:</p>
-      <ul class="build">
-        <h3> Assim como MailApp, SpreadsheetApp, DocumentApp etc, você pode criar seu próprio:</h3>
-
-        <h1><span  style='font-size: 35pt'>ServiceXxxApp</span></h1>
-      </ul>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>ServiceXxxApp</h2>
+      <h2>Mobile</h2>
     </hgroup>
     <article class="flexbox vcenter">
-      <img src="images/ServiceApp.png" alt="ServiceApp" title="ServiceApp">
+      <img src="images/bkper_android.png" alt="bkper" title="bkper">
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2><img src='images/oauth2.png'/> &nbsp;OAuth2 - Storing tokens</h2>
+      <h2>Mobile + Localização</h2>
     </hgroup>
     <article>
-      <pre class="prettyprint" data-lang="Apps Script">
-
-        function storeTokens(refresh, access) {
-
-          <b>// Use UserProperties to safely store tokens</b>
-          <b>var userProperties = PropertiesService.getUserProperties();</b>
-
-          var tokens = {refreshToken: refresh, accessToken: access};
-          userProperties.setProperties(tokens);
-        }
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2><img src='images/oauth2.png'/> &nbsp;OAuth2 - Calling API</h2>
-    </hgroup>
-    <article>
-      <pre class="prettyprint" data-lang="Apps Script">
-
-        function callAPI() {
-          //Gets token from UserProperties,
-          //exchanging the refresh token by a fresh access token, if expired
-          var accessToken = getAccessToken();
-          var options = {method : "[ GET | POST | PUT | DELETE ]"}
-
-          <b>//Add access token to request header</b>
-          <b>options.headers =  {Authorization: "Bearer " + accessToken};</b>
-
-          var apiURL = "https://[APP_ID].appspot.com/_ah/api/[API_NAME]/[VERSION]/[PATH]";
-          var responseText = UrlFetchApp.fetch(apiURL, options).getContentText();
-          return responseText;
-        }
-      </pre>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Poderia ser gerado automaticamente:</h2>
-    </hgroup>
-    <article>
+      <img src="images/google_places_banner.png">
+      <br>
+      <br>
+      <br>
       <ul>
-        <li>Fluxo de autenticação OAuth2</li>
-        <li>Montagens das chamadas REST</li>
-        <li>Parsers</li>
-      </ul>
-    </article>
-    <br/></br>
-    <h3>Open source? Google?</h3>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Dicas</h2>
-    </hgroup>
-    <article>
-      <ul>
-        <li>Se preciso, crie um modelo de objetos sobre o modelo de dados</li>
-        <li>Restrinja as funcionalidades somente ao acesso ao serviço</li>
-        <li>Versione o código (Git/Mercurial)</li>
-        <li>Teste TUDO - automático e contínuo</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/logo_bkper_128x128.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Case: bkper</h2>
-      <h3>HUB/Backbone contábil e financeiro para Google Apps</h3>
-    </hgroup>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2><img src='images/cuidado.png' style='margin-top: -15px'/>&nbsp;Processamento contábil e financeiro</h2>
-    </hgroup>
-    <article>
-      <p>Apresenta quase todos problemas citados anteriormente:</p>
-      <br/>
-      <ul>
-        <li><b>Volume de informações:</b> registros financeiros</li>
-        <li><b>Processamento pesado:</b> saldos de contas / relatórios</li>
-        <li><b>Processamento transacional:</b> partidas dobradas</li>
-        <li><b>Alta complexidade:</b> permissões, validações, histórico etc</li>
+        <li>Melhorar o discovery</li>
+        <li>Sugerir dados (Menos toques)</li>
       </ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>bkper Overview</h2>
+      <img src='images/google_cp_logo.jpeg'  style='margin-top: -15px'/>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Google Cloud Endpoints</li>
+        <li>App Engine Search - Queries on geopoint fields</li>
+        <li>Google Places (https://developers.google.com/places/)</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Widget</h2>
     </hgroup>
     <article class="flexbox vcenter">
-      <img src="images/bkper_overview.png" alt="bkper" title="bkper">
+      <img src="images/bkper_widget.webp" height="400">
     </article>
   </slide>
 
-  <slide>
+  <slide class="nobackground">
     <hgroup>
-      <h2>Exemplos</h2>
-    </hgroup>
-    <br/>
-    <p>
-      <a href='https://www.bkper.com/#transactions:ledgerId=agtzfmJrcGVyLWhyZHITCxIGTGVkZ2VyGICAgODTgOgJDA'>Plano de exemplo</a>
-    </p>
-    <br/>
-    <br/>
-
-    <article>
-      <ul>
-        <li>Web</li>
-        <li>Mobile</li>
-        <li>Email</li>
-        <li>Talk</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2><img src='images/endpoints-icon.png'/> &nbsp;REST API Explorer</h2>
+      <h2>Google Now</h2>
     </hgroup>
     <article>
-      <iframe data-src="https://apis-explorer.appspot.com/apis-explorer/?base=https%3A%2F%2Fbkper-hrd.appspot.com%2F_ah%2Fapi#p/bkper/v2/"></iframe>
+      <iframe data-src="http://www.youtube.com/embed/IhIbpNtG0uk?rel=0"></iframe>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>BkperApp</h2>
+      <h2>Android Wear</h2>
     </hgroup>
     <article class="flexbox vcenter">
-      <object data='images/BkperApp.svg' alt="BkperApp" title="BkperApp" height="500px"></object>
+      <p>"OK Google, tome nota, padaria 12,42"</p>
+      <img src="images/bkper_android.png" alt="bkper" title="bkper">
+      <img src="images/bkper-wear-saving.png">
     </article>
   </slide>
 
-  <slide>
-    <hgroup>
-      <h2>Complementos para Google Apps</h2>
-    </hgroup>
-    <br/>
-    <br/>
-    <p>
-      <img src='images/documentsAddon.png'/> &nbsp; <a href='https://docs.google.com/a/nimbustecnologia.com.br/document/d/1NVXI-tJE61W-Pv7ND71TbIRjWUDg1hr6jIt0hoXucvg/edit'>Google Docs Addon</a>
-    </p>
-    <br/>
-    <br/>
-    <p>
-     <img src='images/spreadsheetsAddon.png'/> &nbsp; <a href='https://docs.google.com/a/nimbustecnologia.com.br/spreadsheets/d/1KNVAWJkl_P4U9KTa0_EBH2Sist_Va7WHZJ3c0IxHrlQ/edit#gid=0'>Google Sheets Addon</a>
-    </p>
-    <br/>
-    <br/>
-
-  </slide>
-
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/desenv_sob_medida.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Desenvolvimento</h2>
-      <h3>Sua biblioteca como ferramenta para desenvolvedores</h3>
-    </hgroup>
-  </slide>
 
   <slide>
     <hgroup>
-      <h2> Exemplo </h2>
-       <h3>Fazer um lançamento com o BkperApp</h3>
+      <h2>GCM + Geofences</h2>
     </hgroup>
     <article>
-      <pre class="prettyprint" data-lang="Apps Script" style="font-size:0.8em">
-
-       function recordATransaction() {
-
-          var ledgerId = "agtzfmJrcGVyLWhyZHIOCxIGTGVkZ2VyGNKJAgw";
-
-          <b>var ledger = BkperApp.openLedgerById(ledgerId);</b>
-
-          <b>ledger.record("#gas 63.23");</b>
-
-        }
-
-     </pre>
+      <img src="images/gcm-logo.png">
+      <br>
+      <br>
+      <ul>
+        <li>Android notifications</li>
+        <li>Geofences - http://developer.android.com/training/location/geofencing.html</li>
+        <li>GCM + Prediction</li>
+        <li>Exemplo do pedágio</li>
+      </ul>
     </article>
-
-    <a href="http://about.bkper.com/api_appsScript.html" style="text-decoration:none">Online example</a>
-  </slide>
-
-
-
- <slide>
-  <hgroup>
-      <h2>Integração de todos componentes</h2>
-      <ul class="build">
-        <li> <strong>Front End</strong> seu design favorito.</li>
-        <li> <strong>Google Apps Script</strong> sua logica de negocio.</li>
-        <li> <strong>Google Cloud Platform</strong> sua estabilidade & escalabilidade.</li>
-
-
-     <li style="margin-top:30px;"><strong>Exemplo: </strong>
-     <div class="modal-body">
-
-         <form id="googleioform" class="form-horizontal" action="" method="post">
-          <div class="modal-header" style="width:400px;background-color:#f5f5f5;border-radius: 6px 6px 0 0;">
-              <h4 class="modal-title">Debites</h4>
-          </div><br>
-          <div class="form-group">
-              <label for="contact-name" class="control-label">Valor:&nbsp; </label>
-              <input type="text" class="form-control" name="value" id="value" placeholder="">
-          </div><br>
-          <div class="form-group">
-               <label for="contact-name" class="control-label">Descrição:&nbsp; </label>
-               <input type="text" class="form-control" name="description" id="description" placeholder="">
-          </div><br>
-          <div class="form-group">
-               <label for="contact-name" class="control-label">Funcionário:&nbsp; </label>
-<!--                <input type="text" class="form-control" name="colaborator" id="colaborator" placeholder=""> -->
-               <select id="colaborator" name="colaborator" >
-                <option>...</option>
-
-               </select>
-          </div><br>
-          <div class="modal-footer" style="width:400px;">
-                <p style="display:inline-block;" ><button type="submit" class="btn btn-danger" id="startIO">Lançar</button><!-- <input id="btnSendContact" type="submit" class="btn btn-primary"/> --></p>
-          </div>
-
-         </form>
-      </div></li>
-   </ul>
-    </hgroup>
   </slide>
 
   <slide>
@@ -425,12 +272,8 @@ URL: https://code.google.com/p/io-2012-slides
     <aside class="gdbar right bottom"><img src="images/gdg_bh_02.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <q>
-        "A platform-less product will always be replaced by an equivalent platform-ized product"
+        Foco no usuário!
       </q>
-      <div class="author">
-        Steve Yegge<br>
-        Google
-      </div>
     </article>
   </slide>
 
@@ -438,7 +281,6 @@ URL: https://code.google.com/p/io-2012-slides
     <aside class="gdbar right"><img src="images/gdg_bh_02.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <h2>&lt;Obrigado!&gt;</h2>
-      <p><a href='https://github.com/maelcaldas' style='color:#FFFFFF'>github.com/maelcaldas</a></p>
     </article>
     <p class="auto-fadein" data-config-contact>
       <!-- populated from slide_config.json -->
