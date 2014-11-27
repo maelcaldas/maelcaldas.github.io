@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.sf.ofx4j</groupId>
+  <artifactId>ofx4j</artifactId>
+  <versioning>
+    <versions>
+      <version>1.7-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141127160924</lastUpdated>
+  </versioning>
+</metadata>

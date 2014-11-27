@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Nov 27 14:09:23 BRST 2014
+ofx4j-1.7-SNAPSHOT.jar>=
+ofx4j-1.7-SNAPSHOT.pom>=
+ofx4j-1.7-SNAPSHOT-sources.jar>=
